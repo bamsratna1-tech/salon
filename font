@@ -17,9 +17,9 @@
     <meta property="og:type" content="website">
 
     <!-- Fonts: Playfair Display (Luxury Serif) & Inter (Clean Sans) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -130,12 +130,11 @@
 <body class="bg-luxe-light text-luxe-dark font-sans antialiased selection:bg-luxe-gold selection:text-white overflow-x-hidden">
 
     <!-- Navigation -->
-    <header id="navbar" class="fixed w-full z-50 transition-all duration-300 py-6 px-6 lg:px-12 text-white">
+<header id="navbar" class="fixed w-full z-50 transition-all duration-300 py-6 px-6 lg:px-12 text-white">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <!-- Logo -->
-            <a href="#" class="text-3xl font-serif italic font-bold tracking-wider text-luxe-gold hover:text-white transition-colors duration-300">
-                LUXE<span class="text-white"></span>
-            </a>
+            <a href="#" class="text-4xl font-serif font-bold tracking-wider text-luxe-gold hover:text-white transition-colors duration-300">
+    <span class="font-['Italianno'] text-5xl">Luxe</span><span class="text-white text-3xl"></span>
 
 
             <!-- Garis Pemisah (Divider) -->
@@ -433,12 +432,12 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-luxe-dark text-white pt-16 pb-8 border-t border-gray-900">
+   <footer class="bg-luxe-dark text-white pt-16 pb-8 border-t border-gray-900">
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
             <div>
-                <a href="#" class="text-4xl font-serif italic font-bold tracking-wider text-luxe-gold inline-block mb-6 hover:text-white transition-colors duration-300">
-                    LUXE<span class="text-white"></span>
-                </a>
+              <a href="#" class="text-5xl font-serif font-bold tracking-wider text-luxe-gold inline-block mb-6 hover:text-white transition-colors duration-300">
+    <span class="font-['Italianno'] text-6xl">Luxe</span><span class="text-white text-4xl"></span>
+</a>
                 <p class="text-gray-400 font-light leading-relaxed max-w-sm">
                     Destinasi premium untuk perawatan wajah, tubuh, dan rambut. Menghadirkan kecantikan sejati dari dalam diri Anda.
                 </p>
