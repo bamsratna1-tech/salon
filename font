@@ -17,7 +17,7 @@
     <meta property="og:type" content="website">
 
     <!-- Fonts: Playfair Display (Luxury Serif) & Inter (Clean Sans) -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     
@@ -130,11 +130,13 @@
 <body class="bg-luxe-light text-luxe-dark font-sans antialiased selection:bg-luxe-gold selection:text-white overflow-x-hidden">
 
     <!-- Navigation -->
-<header id="navbar" class="fixed w-full z-50 transition-all duration-300 py-6 px-6 lg:px-12 text-white">
+     <header id="navbar" class="fixed w-full z-50 transition-all duration-300 py-6 px-6 lg:px-12 text-white">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <!-- Logo -->
             <a href="#" class="text-4xl font-serif font-bold tracking-wider text-luxe-gold hover:text-white transition-colors duration-300">
     <span class="font-['Italianno'] text-5xl">Luxe</span><span class="text-white text-3xl"></span>
+</a>
+
 
 
             <!-- Garis Pemisah (Divider) -->
@@ -214,7 +216,7 @@
     </section>
 
    <!-- About Section -->
-    <section id="tentang" class="py-24 bg-luxe-dark text-white px-6 overflow-hidden">
+    <section id="tentang" class="py-24 bg-luxe-dark text-white px-6">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div class="relative reveal fade-right">
                 <!-- Foto Owner di Section About -->
@@ -259,7 +261,7 @@
     </section>
 
     <!-- Services Section -->
-    <section id="layanan" class="py-24 bg-luxe-light px-6 overflow-hidden">
+    <section id="layanan" class="py-24 bg-luxe-light px-6">
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-20 reveal fade-up">
                 <span class="text-luxe-gold tracking-widest uppercase text-sm font-semibold block mb-3">Layanan Eksklusif</span>
@@ -373,7 +375,7 @@
     </section>
 
     <!-- Location & Contact Section -->
-    <section id="lokasi" class="py-24 bg-stone-100 px-6 border-t border-stone-200 overflow-hidden">
+    <section id="lokasi" class="py-24 bg-stone-100 px-6 border-t border-stone-200">
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
                 
@@ -432,7 +434,7 @@
     </section>
 
     <!-- Footer -->
-   <footer class="bg-luxe-dark text-white pt-16 pb-8 border-t border-gray-900">
+    <footer class="bg-luxe-dark text-white pt-16 pb-8 border-t border-gray-900">
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
             <div>
               <a href="#" class="text-5xl font-serif font-bold tracking-wider text-luxe-gold inline-block mb-6 hover:text-white transition-colors duration-300">
