@@ -48,6 +48,12 @@
     </script>
 
     <style>
+/* KODE BARU TAMBAHKAN DI SINI */
+        @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+        
+        .font-italianno {
+            font-family: 'Italianno', cursive !important;
+        }
         /* Custom Scrollbar */
         ::-webkit-scrollbar {
             width: 8px;
@@ -133,8 +139,8 @@
      <header id="navbar" class="fixed w-full z-50 transition-all duration-300 py-6 px-6 lg:px-12 text-white">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <!-- Logo -->
-            <a href="#" class="text-4xl font-serif font-bold tracking-wider text-luxe-gold hover:text-white transition-colors duration-300">
-    <span class="font-['Italianno'] text-5xl">Luxe</span><span class="text-white text-3xl"></span>
+           <a href="#" class="text-4xl font-serif font-bold tracking-wider text-luxe-gold hover:text-white transition-colors duration-300">
+    <span class="font-italianno text-5xl not-italic">Luxe</span><span class="text-white text-3xl">.</span>
 </a>
 
 
@@ -438,7 +444,7 @@
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
             <div>
               <a href="#" class="text-5xl font-serif font-bold tracking-wider text-luxe-gold inline-block mb-6 hover:text-white transition-colors duration-300">
-    <span class="font-['Italianno'] text-6xl">Luxe</span><span class="text-white text-4xl"></span>
+    <span class="font-italianno text-6xl not-italic">Luxe</span><span class="text-white text-4xl">.</span>
 </a>
                 <p class="text-gray-400 font-light leading-relaxed max-w-sm">
                     Destinasi premium untuk perawatan wajah, tubuh, dan rambut. Menghadirkan kecantikan sejati dari dalam diri Anda.
